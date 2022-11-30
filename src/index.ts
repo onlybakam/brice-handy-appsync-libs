@@ -1,6 +1,6 @@
 import { util, HTTPRequest, DynamoDBPutItemRequest, Key, Context } from '@aws-appsync/utils';
 
-export type AppContext<TArgs, TResult = null, TPrevResult=null> = Omit<Context, 'arguments' | 'result'> & {
+export type AppContext<TArgs, TResult = null, TPrevResult=null> = Omit<Context, 'arguments' | 'result' | 'prev'> & {
   arguments: TArgs
   result: TResult
   prev: { result: TPrevResult}

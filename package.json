@@ -1,6 +1,6 @@
 {
   "name": "brice-handy-appsync-libs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "handy appsync libraries and utilities",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
@@ -10,6 +10,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onlybakam/brice-handy-appsync-libs"
+  },
   "dependencies": {
     "@aws-appsync/utils": "^1.0.1"
   },
